@@ -339,7 +339,7 @@ local MyLevel = game.Players.localPlayer.Data.Level.Value
        end
        AutoFram:Toggle("Auto Farm",false,function(vu)
           if SelectToolWeapon == "Combat" and vu then
-             VLib:Notification("Select Weapon First")
+             VLib:Notification("Combat")
           else
              local args = {
                 [1] = "AbandonQuest"
