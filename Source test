@@ -338,7 +338,7 @@ local MyLevel = game.Players.localPlayer.Data.Level.Value
           end
        end
        AutoFram:Toggle("Auto Farm",false,function(vu)
-          if SelectToolWeapon == "" and vu then
+          if SelectToolWeapon == "Combat" and vu then
              VLib:Notification("Select Weapon First")
           else
              local args = {
